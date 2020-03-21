@@ -1,0 +1,537 @@
+﻿<!DOCTYPE html>
+<html lang="ar-eg" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/logo.png">
+    <link rel="icon" type="image/png" href="../assets/img/logo.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        مستشار البناء
+    </title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <!-- Markazi Text font include just for persian demo purpose, don't include it in your project -->
+    <link href="https://fonts.googleapis.com/css?family=Cairo&amp;subset=arabic" rel="stylesheet">
+    <!-- CSS Files -->
+    <link href="../assets/css/material-dashboard.css?v=2.1.0" rel="stylesheet" />
+    <link href="../assets/css/material-dashboard-rtl.css?v=1.1" rel="stylesheet" />
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="../assets/demo/demo.css" rel="stylesheet" />
+    <link href="../assets/css/style.css" rel="stylesheet" />
+
+    <!-- Style Just for persian demo purpose, don't include it in your project -->
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6, select, option,
+        .h1,
+        .h2,
+        .h3,
+        .h4 {
+            font-family: "Cairo" !important;
+        }
+    </style>
+</head>
+<body class="">
+    <div class="wrapper ">
+        <div class="sidebar" data-color="purple" data-background-color="white">
+            <!--
+                Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
+
+                Tip 2: you can also add an image using data-image tag
+            -->
+            <div class="logo">
+                <a href="http://www.creative-tim.com" class="simple-text logo-normal">
+                    <img src="../assets/img/logo.png" style="width:50%" />
+                </a>
+            </div>
+            <div class="sidebar-wrapper">
+                <ul class="nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="Index.html">
+                            <i class="material-icons">dashboard</i>
+                            <p>
+                                الصفحة الرئيسية
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="bIndex.html">
+                            <i class="fa fa-book"></i>
+                            <p>
+                                بيانات المنشأة
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="cIndex.html">
+                            <i class="material-icons">content_paste</i>
+                            <p>الباقات والاشتراك </p>
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="WIndex.html">
+                            <i class="fa fa-book"></i>
+                            <p>اعمال الشركة  </p>
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" data-toggle="collapse" href="#pagesExamples">
+                            <i class="material-icons">library_books</i>
+                            <p>
+                                الوظائف
+                            </p>
+                        </a>
+                        <div class="collapse" id="pagesExamples">
+                            <ul class="nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="JRIndex.html">
+                                        <i class="fa fa-dot-circle-o"></i>
+                                        <p>طلبات التوظيف </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="JAIndex.html">
+                                        <i class="fa fa-dot-circle-o"></i>
+                                        <p>اعلان وظيفة </p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="PIndex.html">
+                            <i class="material-icons">content_paste</i>
+                            <p>
+                                طلبات عروض الأسعار
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="SIndex.html">
+                            <i class="fa fa-cogs"></i>
+                            <p>الاعدادات</p>
+                        </a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+        <div class="main-panel">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
+                <div class="container-fluid">
+                    <div class="navbar-wrapper">
+                        <a class="navbar-brand" href="#pablo">لوحة تحكم المنشآت  </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="navbar-toggler-icon icon-bar"></span>
+                        <span class="navbar-toggler-icon icon-bar"></span>
+                        <span class="navbar-toggler-icon icon-bar"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end">
+                        <form class="navbar-form">
+                            <div class="input-group no-border">
+                                <input type="text" value="" class="form-control" placeholder="بحث...">
+                                <button type="submit" class="btn btn-white btn-round btn-just-icon">
+                                    <i class="material-icons">search</i>
+                                    <div class="ripple-container"></div>
+                                </button>
+                            </div>
+                        </form>
+                        <ul class="navbar-nav">
+
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="http://example.com" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="material-icons">person</i>
+                                    <p class="d-lg-none d-md-block">
+                                        حساب کاربری
+                                    </p>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink2">
+                                    <a class="dropdown-item" href="#">تعديل الملف الشخصي</a>
+                                    <a class="dropdown-item" href="#">تسجيل الخروج</a>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- End Navbar -->
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-header card-header-primary">
+                                    <h4 class="card-title" style="text-align:center;">بيانات المنشأة </h4>
+                                </div>
+                                <div class="card-body">
+                                    <form>
+                                        <div class="row rowT">
+                                            <div class="col-md-4 col-sm-4"></div>
+                                            <div class="col-md-4 col-sm-4">
+                                                <div class="fileinput fileinput-new text-center" data-provides="fileinput">
+                                                    <div class="fileinput-new thumbnail">
+                                                        <img src="../assets/img/image_placeholder.jpg" id="blah" style="max-width:100%;height: 100px;" alt="...">
+                                                    </div>
+                                                    <div class="fileinput-preview fileinput-exists thumbnail"></div>
+                                                    <div>
+                                                        <span class="btn btn-rose btn-round btn-file">
+                                                            <span class="fileinput-new">أختر شعار المنشأة</span>
+                                                            <input type="file" id="imgInp" name="...">
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-4"></div>
+                                        </div>
+                                        <div class="row rowT">
+
+                                            <div class="col-md-6">
+                                                <div class="form-group bmd-form-group">
+                                                    <label class="bmd-label-floating">رقم المنشأة </label>
+                                                    <input type="text" class="form-control" value="COP2019XXXXX" disabled="">
+                                                </div>
+                                            </div>
+                                            
+                                            
+                                            <div class="col-md-6">
+                                                <div class="form-group bmd-form-group">
+                                                    <label class="bmd-label-floating">السجل التجاري </label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row rowT">
+                                            <div class="col-md-6">
+                                                <div class="form-group bmd-form-group">
+                                                    <label class="bmd-label-floating">اسم المنشأة عربي </label>
+                                                    <input type="text" class="form-control" disabled="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group bmd-form-group">
+                                                    <label class="bmd-label-floating">اسم المنشأة انجليزي  </label>
+                                                    <input type="text" class="form-control" disabled="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row rowT">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <div class="form-group bmd-form-group">
+                                                        <label class="bmd-label-floating"> نبذة عن المنشأة</label>
+                                                        <textarea class="form-control" rows="5"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row rowT">
+                                            <div class="col-md-3">
+                                                <div class="form-group bmd-form-group">
+                                                    <label class="bmd-label-floating">اسم ممثل المنشأة </label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-group bmd-form-group">
+                                                    <label class="bmd-label-floating">المسمى الوظيفي</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-group bmd-form-group">
+                                                    <label class="bmd-label-floating">البريد الإلكتروني</label>
+                                                    <input type="email" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-group bmd-form-group">
+                                                    <label class="bmd-label-floating"> رقم الجوال</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row rowT">
+                                            <div class="col-md-3">
+                                                <div class="form-group bmd-form-group">
+                                                    <select class="custom-select mr-sm-2">
+                                                        <option selected>مواقع التواصل </option>
+                                                        <option>موقع 1</option>
+                                                    </select>
+                                                    <a href="#" class="yuu" style="float:left"><i class="fa fa-plus fa-green"></i> أضف جديد  </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-group bmd-form-group">
+                                                    <select class="custom-select mr-sm-2">
+                                                        <option selected>الدولة</option>
+                                                        <option>الدولة 1</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-group bmd-form-group">
+                                                    <select class="custom-select mr-sm-2">
+                                                        <option selected>المدينة </option>
+                                                        <option>المدينة  1</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-group bmd-form-group">
+                                                    <label class="bmd-label-floating"> العنوان </label>
+                                                    <input type="button" class="btn btn-light" value="العنوان" onclick="getLocation()" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row rowT">
+                                            <div class="col-md-3">
+                                                <div class="form-group bmd-form-group">
+                                                    <label class="bmd-label-floating">مجالات المنشأة  </label>
+                                                    <br />
+                                                </div>
+                                                <div class="card-body" style="overflow-y: scroll; height:200px;">
+                                                    <div class="tab-content">
+                                                        <div class="tab-pane active" id="profile">
+                                                            <table class="table">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <div class="form-check">
+                                                                                <label class="form-check-label">
+                                                                                    <input class="form-check-input" id="select-all" type="checkbox" value="" checked="">
+                                                                                    <span class="form-check-sign">
+                                                                                        <span class="check"></span>
+                                                                                    </span>
+                                                                                </label>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>أختر الكل</td>
+
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <div class="form-check">
+                                                                                <label class="form-check-label">
+                                                                                    <input class="form-check-input check12" type="checkbox" value="" checked="">
+                                                                                    <span class="form-check-sign">
+                                                                                        <span class="check"></span>
+                                                                                    </span>
+                                                                                </label>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>مجال 1</td>
+
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <div class="form-check">
+                                                                                <label class="form-check-label">
+                                                                                    <input class="form-check-input check12" type="checkbox" value="" checked="">
+                                                                                    <span class="form-check-sign">
+                                                                                        <span class="check"></span>
+                                                                                    </span>
+                                                                                </label>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>مجال 1</td>
+
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <div class="form-check">
+                                                                                <label class="form-check-label">
+                                                                                    <input class="form-check-input check12" type="checkbox" value="" checked="">
+                                                                                    <span class="form-check-sign">
+                                                                                        <span class="check"></span>
+                                                                                    </span>
+                                                                                </label>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>مجال 1</td>
+
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <div class="form-check">
+                                                                                <label class="form-check-label">
+                                                                                    <input class="form-check-input check12" type="checkbox" value="" checked="">
+                                                                                    <span class="form-check-sign">
+                                                                                        <span class="check"></span>
+                                                                                    </span>
+                                                                                </label>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>مجال 1</td>
+
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-group bmd-form-group">
+                                                    <label class="bmd-label-floating">كلمة المرور </label>
+                                                    <input type="password" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-group bmd-form-group">
+                                                    <label class="bmd-label-floating">تأكيد كلمة المرور </label>
+                                                    <input type="password" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+
+                                                        <input class="form-check-input" type="checkbox" value="">
+                                                        <span class="form-check-sign">
+                                                            <span class="check"></span>
+                                                        </span>
+                                                    </label>
+                                                    <p style="padding: 0 35px 0px 0px;">مصنفة حكومية ؟  </p>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <br />
+                                        <button type="submit" class="btn btn-primary pull-left">حفظ</button>
+                                        <button type="submit" class="btn btn-light pull-left">ألغاء</button>
+
+                                        <div class="clearfix"></div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="Modo" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">حدد موقعك علي الخريطة</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d232469.78852462283!2d39.6167993!3d24.438971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15bdbe5197d220d5%3A0x2e54514fea3b08d9!2z2KfZhNmF2K_ZitmG2Kkg2KfZhNmF2YbZiNix2Kkg2KfZhNiz2LnZiNiv2YrYqQ!5e0!3m2!1sar!2seg!4v1578772386105!5m2!1sar!2seg" width="450" height="300" style="border:0" allowfullscreen="" data-rocket-lazyload="fitvidscompatible" data-lazy-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d232469.78852462283!2d39.6167993!3d24.438971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15bdbe5197d220d5%3A0x2e54514fea3b08d9!2z2KfZhNmF2K_ZitmG2Kkg2KfZhNmF2YbZiNix2Kkg2KfZhNiz2LnZiNiv2YrYqQ!5e0!3m2!1sar!2seg!4v1578772386105!5m2!1sar!2seg" class="lazyloaded" data-was-processed="true"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">حفظ</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">أغلاق</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--   Core JS Files   -->
+    <script src="../assets/js/core/jquery.min.js" type="text/javascript"></script>
+    <script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="../assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+    <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+    <!--  Google Maps Plugin    -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+    <!-- Chartist JS -->
+    <script src="../assets/js/plugins/chartist.min.js"></script>
+    <!--  Notifications Plugin    -->
+    <script src="../assets/js/plugins/bootstrap-notify.js"></script>
+    <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
+    <script src="../assets/js/material-dashboard.min.js?v=2.1.0" type="text/javascript"></script>
+    <!-- Material Dashboard DEMO methods, don't include it in your project! -->
+    <script src="../assets/demo/demo.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Javascript method's body can be found in assets/js/demos.js
+            md.initDashboardPageCharts();
+
+        });
+
+
+        var x = document.getElementById("demo");
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition, showError);
+            }
+            else { x.innerHTML = "Geolocation is not supported by this browser."; }
+        }
+
+        function showPosition(position) {
+            
+            $('#Modo').modal('show');
+        }
+
+        function showError(error) {
+            switch (error.code) {
+                case error.PERMISSION_DENIED:
+                    x.innerHTML = "User denied the request for Geolocation."
+                    break;
+                case error.POSITION_UNAVAILABLE:
+                    x.innerHTML = "Location information is unavailable."
+                    break;
+                case error.TIMEOUT:
+                    x.innerHTML = "The request to get user location timed out."
+                    break;
+                case error.UNKNOWN_ERROR:
+                    x.innerHTML = "An unknown error occurred."
+                    break;
+            }
+        }
+
+        // Listen for click on toggle checkbox
+        $('#select-all').click(function (event) {
+            if (this.checked) {
+                // Iterate each checkbox
+                $('.check12').each(function () {
+                    this.checked = true;
+                });
+            } else {
+                $('.check12').each(function () {
+                    this.checked = false;
+                });
+            }
+        });
+
+
+
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#blah').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $("#imgInp").change(function () {
+            readURL(this);
+        });
+
+    </script>
+</body>
+</html>
